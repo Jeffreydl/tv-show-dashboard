@@ -1,0 +1,23 @@
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  color: var(--color-blue-light);
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+  text-decoration: none;
+
+  svg {
+    width: 1.2em;
+    height: 1.2em;
+  }
+
+  &:hover {
+    background-color: #e0e7ff;
+  }
+}

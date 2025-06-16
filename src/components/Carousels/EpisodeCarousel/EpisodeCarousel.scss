@@ -1,0 +1,42 @@
+.episode-carousel .episode-slide {
+  position: relative;
+  width: 200px;
+  min-width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+.episode-carousel img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  height: 120px;
+  object-fit: cover;
+}
+.episode-carousel .overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.episode-title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.episode-meta {
+  font-size: 0.9em;
+  opacity: 0.9;
+  font-weight: 500;
+  display: flex;
+  gap: 0.75em;
+  align-items: center;
+}
+.star {
+  color: #ffd600;
+}
